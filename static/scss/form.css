@@ -1,0 +1,106 @@
+.form {
+    font-size: 22px;
+    font-family: 'monospace';
+    text-align: center; /* Alineación a la izquierda */
+    margin-left: 10%;
+    width: 60%;
+}
+
+/* Estilos para el formulario */
+._form-content {
+    /* Agrega aquí tus estilos para el contenedor principal del formulario */
+    margin: 20px 0; /* Espacio en los márgenes superior e inferior */
+    padding: 20px; /* Espacio interno */
+    background-color: #ffffff; /* Color de fondo */
+    border: 1px solid #ccc; /* Borde alrededor del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; /* Alineación del contenido */
+    width: 70%;
+    font-size: 22px;
+    font-family: 'monospace';
+}
+
+/* Estilos para los elementos del formulario */
+._form_element {
+    margin-bottom: 20px; /* Margen entre elementos del formulario */
+}
+
+._form-label {
+    font-weight: bold;
+    /* Otros estilos para las etiquetas de los campos */
+}
+
+._field-wrapper {
+    /* Agrega aquí tus estilos para el contenedor de los campos */
+    margin-bottom: 15px; /* Espacio entre campos */
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde alrededor del campo */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo del contenedor */
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Otros estilos para los campos de entrada */
+}
+
+._button-wrapper {
+    text-align: center;
+}
+
+._submit {
+    background-color: #0D0D0D;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Staatliches'
+    /* Otros estilos para el botón de envío */
+}
+
+._submit:hover {
+    background-color: #33C173;
+}
+
+/* Estilos para el mensaje de agradecimiento */
+._form-thank-you {
+    /* estilos para el mensaje de agradecimiento */
+    text-align: center;
+    padding: 20px;
+    background-color: #0D0D0D;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Estilos para el branding */
+._form-branding {
+    /* Agrega aquí tus estilos para el branding */
+    ._form-branding {
+        text-align: center;
+        margin-top: 20px;
+        color: #999999;
+        font-size: 8px;
+    }
+    
+    ._form-branding ._marketing-by {
+        margin-bottom: 5px;
+        font-size: 8px;
+    }
+    
+    ._form-branding ._logo {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    ._form-branding ._logo img {
+        max-width: 100%;
+        height: auto;
+    }
+   
+}

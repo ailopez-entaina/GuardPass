@@ -1,0 +1,11 @@
+		<nav class="nav-top">
+			<a href="{{ "/" | relURL }}" style="text-align: left;">
+				
+					{{ if .IsPage }}
+						<h2 class="nav-title" style="color: white;">{{ .Site.Title }}</h2>
+					{{ else }}
+						<h1 class="nav-title" style="color: white;">{{ .Site.Title }}</h1>
+					{{ end }}
+					</a>
+					{{ partial "header-menu.html" . }}
+		</nav>

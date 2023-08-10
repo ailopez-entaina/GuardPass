@@ -1,0 +1,12 @@
+    <div style="text-align: right;">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+       
+            <a href="{{ .URL }}" >
+                {{ .Pre }}
+                <span style="color: white; margin-right: 20px; vertical-align: center;">{{ .Name }}</span>
+                {{ .Post }}
+            </a>
+        
+    {{ end }}
+    </div>

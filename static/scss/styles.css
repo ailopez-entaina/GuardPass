@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+.body-gp {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.nav-top{
+    background-color: #000000;
+    font-family: 'Staatliches';
+    color: white;
+    height: 50px;
+}
+.nav-title{
+    font-family: 'Staatliches';  
+    margin-left: 10px;
+}
+/* Estilos de tipos de letra*/
+.monoespace-20px {
+    font-size: 20px;
+    font-family: "Space Mono Regular", monospace;
+    color: white;
+    margin-bottom: 10px;
+}
+.monoespace-16px {
+    font-size: 16px;
+    font-family: "Space Mono Regular", monospace;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.staatliches {
+    font-family: 'Staatliches';
+}
+.description {
+    font-size: 18px;
+    color: white;
+}
+
+.text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alineación horizontal al centro */
+}
+.text-center {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alineación horizontal al centro */
+    text-align: center;
+}
+.title-monospace {
+    font-size: 16px;
+    font-family: "Space Mono Regular", monospace;
+    color: white;
+    text-align: left; /* Alineación a la izquierda */
+    margin-left: 10%;
+}
+
+.staatliches {
+    font-size: 50px;
+    font-family: 'Staatliches';
+    text-align: left; /* Alineación a la izquierda */
+    margin-left: 10%;
+    color: white;
+}
+.staatliches-title {
+    font-size: 50px;
+    font-family: 'Staatliches';
+    text-align: left; /* Alineación a la izquierda */
+
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.staatliches-title-center {
+    font-size: 50px;
+    font-family: 'Staatliches';
+    text-align: center; /* Alineación a la izquierda */
+    color: white;
+    padding-left: 10%;
+    padding-right: 15%;
+}
+/*Estilos de imagenes */
+.image {
+    text-align: center;
+}
+
+.image img {
+    width: 100vw; /* Cambia a 100vw para ajustarse al ancho del viewport */
+    max-width: 100%;
+    height: auto;
+}
+.image-right {
+    text-align: right;
+    margin: 0;
+}
+
+.image-right img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*Estilos de contedores */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #020000;
+    color: white;
+    width: 70vw;
+    margin-left: 0%;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    background-color: #0D0D0D;
+    color: white;
+    font-family: "Space Mono Regular", monospace;
+    max-height: 100vh;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between; /* Alinea el contenido y la imagen en los extremos */
+}
+
+
+/* Estilos bloque de 3 */
+.container-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; /* Centrar verticalmente */
+    background-color: #020000;
+    color: white;
+    width: 100vw;
+    overflow-y: auto;
+    padding-top: 100px;
+    margin-bottom: 150px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.block-column-int {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alinea el contenido al principio del bloque */
+    width: calc(33.33% - 16px);
+    margin: 8px;
+    background-color: #0D0D0D;
+    color: white;
+    font-family: "Space Mono Regular", monospace;
+    max-height: 100%;
+    padding-right: 100px;
+}
+.img-int {
+    text-align: center;
+}
+
+.img-int img {
+    width: 300px; /* Fijar el ancho de la imagen */
+    height: 200px; /* Fijar la altura de la imagen */
+    object-fit: cover; /* Asegura que la imagen mantenga sus proporciones y se ajuste */
+    filter: grayscale(100%); /* Convierte la imagen a blanco y negro */
+    border-radius: 10px 10px 10px 10px;
+}
+
+.text-int {
+    text-align: left; /* Alinea el texto al borde izquierdo */
+    padding: 0 16px;
+    margin-top: 10px; /* Espacio entre el texto y el borde izquierdo de la imagen */
+    flex-grow: 1;
+}
+
+.staatliches-20px {
+    font-size: 20px;
+    font-family: 'Staatliches';
+    color: white;
+    margin-top: 10px; /* Espacio entre el título y el texto */
+}
+
+/* Estilos bloque de 4 */
+
+.container-4column {
+    display: flex;
+    justify-content: space-around; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    display: grid;
+    background-color: #020000;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 10px 10px; /* Espacio uniforme entre los bloques */
+    padding: 20px;
+    margin-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+.block-4column-int {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alinea el contenido al principio del bloque */
+    background-color: #0D0D0D;
+    color: white;
+    font-family: "Space Mono Regular", monospace;
+    margin-bottom: 80px;
+}
+
+
+
+/* EStilos formulario pipedrive*/
+.container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar verticalmente */
+    background-color: #020000;
+    height: 1200px;
+    margin-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    /* Estilos para .container-column */
+    .body-gp {
+        background-color: #000000;
+    }
+    .container-column {
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+        grid-template-rows: 1fr;
+        align-items: center;
+        padding-left: 10%;
+    }
+
+    /* Estilos para .container-4column */
+
+    .container-4column {
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+        grid-template-rows: 1fr;
+        gap: 20px; /* Aumenta el espacio entre los bloques */
+        padding: 20px; /* Ajusta el padding */
+        height: 100vh;
+    }
+
+    /* Estilos para .block-4column-int en dispositivos móviles */
+    .block-4column-int {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        margin-bottom: 40px; /* Ajusta el margen inferior entre bloques */
+        padding: 20px;
+    }
+
+    /* Estilos para .block y .block-column-int */
+    .block,
+    .block-column-int {
+        flex-direction: column;
+        align-items: center;
+        width: 100%; /* Cambia el ancho al 100% para ocupar todo el espacio disponible */
+        padding: 20px;
+    }
+
+    /* Estilos para .container-form y .text-center */
+    .container-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centrar horizontalmente */
+        align-items: center; /* Centrar verticalmente */
+        background-color: #020000;
+        height: 1500px;
+        margin-bottom: 230px;
+    }
+    .text-center {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Alineación horizontal al centro */
+        text-align: center;
+    }
+
+    /* Estilos para .text y .text-int */
+    .text,
+    .text-int {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* Estilos para .img-int img */
+    .img-int img {
+
+        width: 300px; /* Fijar el ancho de la imagen */
+        height: 200px; /* Fijar la altura de la imagen */
+        object-fit: cover;
+        filter: grayscale(100%);
+        border-radius: 10px;
+    }
+    .image-right img {
+        max-width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .staatliches {
+        font-size: 32px;
+        font-family: 'Staatliches';
+        text-align: left; /* Alineación a la izquierda */
+        margin-left: 10%;
+        color: white;
+    }
+    .staatliches-title {
+        font-size: 32px;
+        font-family: 'Staatliches';
+        text-align: left; /* Alineación a la izquierda */
+        margin-left: 10%;
+        color: white;
+        padding-left: 10%;
+        padding-right: 15%;
+    }
+    .staatliches-title-center {
+        font-size: 32px;
+        font-family: 'Staatliches';
+        text-align: center; /* Alineación a la izquierda */
+        color: white;
+        padding-left: 10%;
+        padding-right: 15%;
+    }
+}
