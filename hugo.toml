@@ -4,9 +4,9 @@ title = "GuardPass"
 theme = "tale"
 
 [params]
-  css = ["./scss/styles.css"]
+  css = ["scss/styles.css"]
    background_color_class = "bg-black"
-   favicon = "/images/favicon.png"
+   favicon = "images/favicon.ico"
 [menu]
   [[menu.main]]
     identifier = "contact"
